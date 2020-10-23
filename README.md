@@ -26,7 +26,7 @@ This project is developed and tested under the following environment:
 - pytorch>=1.3.1
 - torchvision>=0.4.2
 
-## Run
+## Instruction
 
 ### Search
 
