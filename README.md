@@ -12,7 +12,9 @@
 
 </p>
 
-> A PyTorch implementation of *Adapting Neural Architectures Between Domains* in NeurIPS 2020.
+> A PyTorch implementation of ***Adapting Neural Architectures Between Domains*** (AdaptNAS) in NeurIPS 2020.
+>
+> This code is based on [**DARTS**](https://github.com/quark0/darts) (https://github.com/quark0/darts).
 
 ## Overview
 
@@ -34,7 +36,7 @@ This project is developed and tested under the following environment:
 
 ### Retrain
 
-To retrain the searched architecture, execute the following code:
+To retrain the searched architecture on the ImageNet, execute the following command:
 ```bash
 python train_imagenet.py \
     --arch arch_AdaptNAS \
