@@ -26,6 +26,27 @@ This project is developed and tested under the following environment:
 - pytorch>=1.3.1
 - torchvision>=0.4.2
 
+## Run
+
+### Search
+
+> Seach code will be available soon.
+
+### Retrain
+
+To retrain the searched architecture, execute the following code:
+```bash
+python train_imagenet.py \
+    --arch arch_AdaptNAS \
+    --batch_size 512 \
+    --learning_rate 0.25 \
+    --auxiliary \
+    --epochs 250 \
+    --num_workers 48
+```
+
+We use four Tesla V100 GPUs for retraining. If you use a different number of GPUs, the `bach_size` and `learning_rate` should be adjusted correspondingly.
+
 ## Citation
 ```
 @inproceedings{li2020adapting,
