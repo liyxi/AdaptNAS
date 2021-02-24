@@ -13,8 +13,8 @@
 </p>
 
 > A PyTorch implementation of ***Adapting Neural Architectures Between Domains*** (AdaptNAS) in NeurIPS 2020.
->
-> Paper: [[PDF]](https://github.com/liyxi/AdaptNAS/releases/download/V0.1-retrain_code/AdaptNAS_NIPS_2020.pdf)
+> 
+> [[Abstract]](https://papers.nips.cc/paper/2020/hash/08f38e0434442128fab5ead6217ca759-Abstract.html) [[PDF]](https://papers.nips.cc/paper/2020/file/08f38e0434442128fab5ead6217ca759-Paper.pdf)
 >
 > This code is based on [**DARTS**](https://github.com/quark0/darts) (https://github.com/quark0/darts).
 
